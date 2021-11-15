@@ -1,5 +1,5 @@
 plugins {
-    kotlin("multiplatform") version "1.6.0-RC2"
+    kotlin("multiplatform") version "1.6.0"
 }
 
 group = "me.eschouten"
@@ -33,8 +33,8 @@ kotlin {
     sourceSets {
         val commonMain by getting {
             dependencies {
-                implementation("io.ktor:ktor-server-core:2.0.0-eap-263")
-                implementation("io.ktor:ktor-server-cio:2.0.0-eap-263")
+                implementation("io.ktor:ktor-server-core:2.0.0-eap-266")
+                implementation("io.ktor:ktor-server-cio:2.0.0-eap-266")
             }
         }
         val commonTest by getting {
